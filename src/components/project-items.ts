@@ -55,10 +55,10 @@
 
 // ? Import and Export using ES6 Syntax
 
-import { auto_bind } from "../decorators/autobinder.js";
-import { Draggable } from "../models/drag-drop.js";
-import { Project } from "../models/project.js";
-import { Component } from "./base-components.js";
+import { auto_bind } from "../decorators/autobinder";
+import { Draggable } from "../models/drag-drop";
+import { Project } from "../models/project";
+import { Component } from "./base-components";
 
 //! Project Item Class
 

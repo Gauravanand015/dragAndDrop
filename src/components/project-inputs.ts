@@ -87,10 +87,10 @@
 
 // ? import and export using ES6
 
-import { Component } from "./base-components.js";
-import { Validation, validate } from "../utils/validations.js";
-import { auto_bind } from "../decorators/autobinder.js";
-import { projectState } from "../state/project-state.js";
+import { Component } from "./base-components";
+import { Validation, validate } from "../utils/validations";
+import { auto_bind } from "../decorators/autobinder";
+import { projectState } from "../state/project-state";
 
 //! projectInput Class
 export class ProjectInput extends Component<HTMLDivElement, HTMLFormElement> {

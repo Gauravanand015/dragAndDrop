@@ -12,8 +12,8 @@
 // ************************************************************************************/
 
 // ? Import and export using  ES6 syntax
-import { ProjectInput } from "./components/project-inputs.js";
-import { ProjectList } from "./components/projects-list.js";
+import { ProjectInput } from "./components/project-inputs";
+import { ProjectList } from "./components/projects-list";
 
 new ProjectInput();
 new ProjectList("active");

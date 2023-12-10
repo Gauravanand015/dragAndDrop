@@ -61,7 +61,7 @@
 //******************************************************************************************/
 
 //? Import And Export using ES6 syntax
-import { Project, ProjectStatus } from "../models/project.js";
+import { Project, ProjectStatus } from "../models/project";
 
 //! PROJECT STATE MANAGEMENT
 type Listener<T> = (items: T[]) => void;

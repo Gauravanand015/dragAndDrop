@@ -83,12 +83,12 @@
 
 // ? Import and Export using ES6 syntax
 
-import { auto_bind } from "../decorators/autobinder.js";
-import { DragTarget } from "../models/drag-drop.js";
-import { Project, ProjectStatus } from "../models/project.js";
-import { projectState } from "../state/project-state.js";
-import { Component } from "./base-components.js";
-import { ProjectItem } from "./project-items.js";
+import { auto_bind } from "../decorators/autobinder";
+import { DragTarget } from "../models/drag-drop";
+import { Project, ProjectStatus } from "../models/project";
+import { projectState } from "../state/project-state";
+import { Component } from "./base-components";
+import { ProjectItem } from "./project-items";
 
 //! render the project list to the DOM;
 export class ProjectList
